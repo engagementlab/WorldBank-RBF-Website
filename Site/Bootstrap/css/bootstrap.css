@@ -5,27 +5,14 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-
-
-#full {
-    background: url('background.png') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
 body {
-  margin-top: 50px;
-    
-    height: 100%;
+  margin: 0;
 }
-
 article,
 aside,
 details,
@@ -74,10 +61,8 @@ dfn {
   font-style: italic;
 }
 h1 {
-  margin-top: 10px;
-  font-size: 2.5em;
-    text-align:center;
-    font-family: 'Cabin Sketch', cursive;
+  margin: .67em 0;
+  font-size: 2em;
 }
 mark {
   color: #000;
@@ -249,13 +234,10 @@ th {
   h3 {
     orphans: 3;
     widows: 3;
-       text-align:center;
-      
   }
   h2,
   h3 {
     page-break-after: avoid;
-       text-align:center;
   }
   select {
     background: #fff !important;
@@ -1108,6 +1090,7 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
+  background-color: #fff;
 }
 input,
 button,
@@ -1244,7 +1227,7 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 0px;
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 h1 small,
@@ -1290,7 +1273,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 36px;
+  font-size: 30px;
 }
 h3,
 .h3 {
@@ -1596,19 +1579,18 @@ pre code {
 .container {
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: 0px;
-  margin-left: 0px;
-    
+  margin-right: auto;
+  margin-left: auto;
 }
 @media (min-width: 768px) {
   .container {
     width: 750px;
-    }
+  }
 }
 @media (min-width: 992px) {
   .container {
     width: 970px;
-    }
+  }
 }
 @media (min-width: 1200px) {
   .container {
@@ -1618,8 +1600,8 @@ pre code {
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
-  margin-right: 0;
-    margin-left: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 .row {
   margin-right: -15px;
@@ -4089,7 +4071,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
-    padding-left: none;
 }
 @media (min-width: 768px) {
   .navbar {
@@ -4187,7 +4168,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-fixed-top {
   top: 0;
   border-width: 0 0 1px;
-    padding-left: none;
 }
 .navbar-fixed-bottom {
   bottom: 0;
@@ -4197,10 +4177,9 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  padding-top: 15px ;
+  padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
-    padding-left: none;
 }
 .navbar-brand:hover,
 .navbar-brand:focus {
@@ -4877,73 +4856,27 @@ a.badge:focus {
 .nav-pills > li > a > .badge {
   margin-left: 3px;
 }
-#main.jumbotron {
-    margin-top: 40px;
-}
-.contentbox {
-    margin: 50px;
-    height: 80%;
-    text-align: center;
-  text-align:center;
-    font-family: 'Chelsea Market', cursive;
-    color: #333; 
-}
-.contentbox p {
-    font-size: 1.5em;
-    padding: 10px;
-}
-.contentbox h2 {
-    margin: 10px;
-    margin-bottom: 30px;
-}
 .jumbotron {
-    text-align: center;
-  padding: 20px;
-    max-height: 100%;
-    min-height: 90%;
-  background-color: rgba(199, 179, 149, .8);
+  padding: 30px 15px;
+  margin-bottom: 30px;
+  color: inherit;
+  background-color: #eee;
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
-    font-family: 'Chelsea Market', cursive;
-    font-size: 4em;
-    color: #333;
-    margin-bottom: 80px;
-    margin-top: 40px;
-}
-.jumbotron h2 {
- text-align:center;
-    font-family: 'Chelsea Market', cursive;
-    margin-bottom: 30px;
-    color: #333;
-}
-.jumbotron h3 {
- text-align: center;
-    font-family: 'Chelsea Market', cursive;
-    margin-bottom: 30px;
-    padding-right: 50px;
-    padding-left: 50px;
-    color: #333;
-    font-size: 1.5em;
 }
 .jumbotron p {
-  margin: 30px;
-    margin-right: 60px;
-    margin-left: 60px;
-  font-size: 18px;
+  margin-bottom: 15px;
+  font-size: 21px;
   font-weight: 200;
-    text-align: center;
-    font-family: 'Cabin', sans-serif;
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
-  border-radius: 0px;
-    background-color: rgba(199, 179, 149, .8);
-    align-content: center;
+  border-radius: 6px;
 }
 .jumbotron .container {
   max-width: 100%;
@@ -4951,28 +4884,16 @@ a.badge:focus {
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding: 48px 0;
-      background-color: rgba(199, 179, 149, .8);
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
     padding-right: 60px;
     padding-left: 60px;
-      background-color: rgba(199, 179, 149, .8);
-      align-content: center;
   }
   .jumbotron h1,
   .jumbotron .h1 {
-    font-size: 7em;
-      color: #333;
-      margin-top: 10px;
+    font-size: 63px;
   }
-    .jumbotron h3 {
- text-align:center;
-    font-family: 'Chelsea Market', cursive;
-    margin-bottom: 30px;
-    color: #333;
-    font-size: 2em;
-}
 }
 .thumbnail {
   display: block;
@@ -6147,7 +6068,6 @@ button.close {
 }
 .carousel {
   position: relative;
-    background-color: rgba(199, 179, 149, .8);
 }
 .carousel-inner {
   position: relative;
@@ -6240,11 +6160,22 @@ button.close {
   opacity: .5;
 }
 .carousel-control.left {
-  
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .5)), to(rgba(0, 0, 0, .0001)));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .5) 0%, rgba(0, 0, 0, .0001) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
+  background-repeat: repeat-x;
 }
 .carousel-control.right {
   right: 0;
   left: auto;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+  background-image:      -o-linear-gradient(left, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, .0001)), to(rgba(0, 0, 0, .5)));
+  background-image:         linear-gradient(to right, rgba(0, 0, 0, .0001) 0%, rgba(0, 0, 0, .5) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
+  background-repeat: repeat-x;
 }
 .carousel-control:hover,
 .carousel-control:focus {
@@ -6655,49 +6586,40 @@ button.close {
 
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: rgba(79, 61, 29, 1);
-    padding-left: 20px;
-    background-color: rgba(230, 207, 172, 1);
-    font-family: 'Chelsea Market' cursive;
+    color: rgba(198, 219, 255, 1);
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 14px;
-    background-color: rgba(230, 207, 172, 1);
-    border-bottom-width: 0px;
+    background-color: rgba(30, 75, 153, 1);
+    border-width: 1px;
+    border-radius: 4px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
-    color: rgba(79, 61, 29, 1);
-    background-color: rgba(230, 207, 172, 1);
-    font-family: 'Chelsea Market' cursive;
+    color: rgba(198, 219, 255, 1);
+    background-color: rgba(248, 248, 248, 0);
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
-    color: rgba(51, 51, 51, 1);
-    background-color: rgba(204, 179, 138, 1);
-    font-family: 'Chelsea Market' cursive;
+    color: rgba(64, 64, 64, 1);
+    background-color: rgba(158, 175, 204, 1);
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
-    color: rgba(85, 85, 85, 1);
-    background-color: rgba(204, 179, 138, 1);
-    font-family: 'Chelsea Market' cursive;
+    color: rgba(64, 64, 64, 1);
+    background-color: rgba(158, 175, 204, 1);
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #ccb38a;
+    border-color: #9eafcc;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #ccb38a;
-    font-family: 'Chelsea Market' cursive;
+    background-color: #9eafcc;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #ccb38a;
-    font-family: 'Chelsea Market' cursive;
+    background-color: #9eafcc;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #e6cfac;
-    font-family: 'Chelsea Market' cursive;
+    background-color: #1e4b99;
 }
-
