@@ -19,13 +19,15 @@
                 </div>
                 <div class="collapse navbar-collapse navbar-menubuilder">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#thegame">The Game</a>
+                        <li><a href="#contents" onClick="javascript:goToSlide(0);">The Game</a>
                         </li>
-                        <li><a href="#theworld">The World</a>
+                        <li><a href="#contents" onClick="javascript:goToSlide(1);">The World</a>
                         </li>
-                        <li><a href="#theproblems">The Problems</a>
+                        <li><a href="#contents" onClick="javascript:goToSlide(2);">The Problems</a>
                         </li>
-                        <li><a href="#yourrole">Your Role</a>
+                        <li><a href="#contents" onClick="javascript:goToSlide(3);">Your Role</a>
+                        </li>
+                        <li><a href="#play">Play</a>
                         </li>
                         <li><a href="#more">More</a>
                         </li>
@@ -49,23 +51,23 @@
                       </ol>
 
                       <!-- Wrapper for slides -->
-                      <div class="carousel-inner" role="listbox">
+                      <div class="carousel-inner" role="listbox" id="contents">
                         <div class="item active">
-                            <div class="contentbox" id="thegame">
+                            <div class="contentbox" >
                                 <h2>The Game</h2>
                                 <p>Quest for Zariba is a time-based strategy game, based in the developing country of Zariba. Play as a Health Control coordinator, traveling throughout the land to learn about the people and the problems. Then, use risk-based financing to plan and impliment services that will restore Zariba to glory!</p>
                             </div>
                         </div>
 
-                        <div class="item">
-                            <div class="contentbox" id="theworld">
+                        <div class="item" id="theworld">
+                            <div class="contentbox" >
                                 <h2>The World</h2>
-                                <p>Zariba is a timeless land, filled with unique people and struggles. The world may seem similar to some a generalized developing country, stylized to identify with no one country, and yet all of them.</p>
+                                <p>Zariba is a timeless land, filled with unique people and struggles. The world may seem similar to some as a generalized developing country, stylized to identify with no one country, and yet all of them.</p>
                             </div>
                         </div>
 
-                        <div class="item">
-                            <div class="contentbox" id="theproblems">
+                        <div class="item" id="theproblems">
+                            <div class="contentbox" >
                                 <h2>The Problems</h2>
                                 <p>Zariba has been dealing with many years of poverty, drought, political and social problems, among many others. To be short, the country is in a bad state. Speak to people throughout the country, traveling to different cities to find out what the most serious problems are. One of the main problems in Zariba is the transportation system, however, and you only have so many days to talk to as many citizens as possible.</p>
                             </div>
@@ -91,11 +93,11 @@
                 </div>
                 
        
-            <div class="jumbotron vertical-center">
+            <div class="jumbotron " id="play">
                 <h2>So you want to play?</h2>
                 <p>We are currently hard at work, putting together artwork, code, and dialogue to build the world of Zariba, please be patient! Scroll down to see more projects we have worked on, and to find out more about when Quest of Zariba will be available.</p>
             </div>
-            <div class="jumbotron vertical-center" id="more">
+            <div class="jumbotron " id="more">
                 <h2>More</h2>
                 <p>www.engagmentlab.com</p>
             </div>

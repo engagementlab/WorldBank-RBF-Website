@@ -85,6 +85,10 @@ if (typeof jQuery === 'undefined') {
  * ======================================================================== */
 
 
+function goToSlide(number) {
+   $("#myCarousel").carousel(number);
+}
+
 +function ($) {
   'use strict';
 
