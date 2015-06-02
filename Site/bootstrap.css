@@ -6675,31 +6675,30 @@ button.close {
     color: rgba(79, 61, 29, 1);
     padding-left: 20px;
     background-color: rgba(230, 207, 172, 1);
-    font-family: 'Chelsea Market' cursive;
+    font-family: 'Chelsea Market', cursive;
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 14px;
     background-color: rgba(230, 207, 172, 1);
     border-bottom-width: 0px;
-    font-family: 'Chelsea Market' cursive;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
     color: rgba(79, 61, 29, 1);
     background-color: rgba(230, 207, 172, 1);
-    font-family: 'Chelsea Market' cursive;
+    font-family: 'Chelsea Market', cursive;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
     color: rgba(51, 51, 51, 1);
     background-color: rgba(204, 179, 138, 1);
-    font-family: 'Chelsea Market' cursive;
+    font-family: 'Chelsea Market', cursive;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
     color: rgba(85, 85, 85, 1);
     background-color: rgba(204, 179, 138, 1);
-    font-family: 'Chelsea Market' cursive;
+    font-family: 'Chelsea Market', cursive;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
     border-color: #ccb38a;
@@ -6707,15 +6706,15 @@ button.close {
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
     background-color: #ccb38a;
-    font-family: 'Chelsea Market' cursive;
+    font-family: 'Chelsea Market', cursive;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
     background-color: #ccb38a;
-    font-family: 'Chelsea Market' cursive;
+    font-family: 'Chelsea Market', cursive;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #e6cfac;
-    font-family: 'Chelsea Market' cursive;
+    font-family: 'Chelsea Market', cursive;
 }
 
