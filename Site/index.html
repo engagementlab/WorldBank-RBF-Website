@@ -1,6 +1,6 @@
 <html id="full">
 <head>
-    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="fonts/glyphicons-halflings-regular.woff">
     <link rel="stylesheet" href="fonts/glyphicons-halflings-regular.woff2">
 
@@ -13,94 +13,138 @@
     
         <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container-fluid">
-                <div class="navbar-header"><a class="navbar-brand" href="#">Quest For Zariba</a>
+                <div class="navbar-header"><a class="navbar-brand" href="#"><img src="images/unlocking_health.png" style="height: 40px; width: 120px; margin-top:-10px; margin-left: -10px; padding: 0px;"></a>
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                     </button>
                 </div>
                 <div class="collapse navbar-collapse navbar-menubuilder">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#contents" onClick="javascript:goToSlide(0);">The Game</a>
+                        <!-- <li><a href="#contents" onClick="javascript:goToSlide(0);">The Game</a>
                         </li>
                         <li><a href="#contents" onClick="javascript:goToSlide(1);">The World</a>
                         </li>
                         <li><a href="#contents" onClick="javascript:goToSlide(2);">The Problems</a>
                         </li>
                         <li><a href="#contents" onClick="javascript:goToSlide(3);">Your Role</a>
+                        </li> -->
+                        <li><a href="#game">The Game</a>
                         </li>
-                        <li><a href="#play">Play</a>
+                        <li><a href="#play">Download</a>
                         </li>
-                        <li><a href="#more">More</a>
+                        <li><a href="#tech">Technical Specifications</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </div>
-        
+        <div class="row">
             <div class="jumbotron" id="main">
                 <h1>Quest for Zariba</h1>
                 <h3>A strategy game about risk-based financing and health services in developing countries</h3> 
+                <div class="down">
+                    <p>Scroll down for more!</p>
+                    <span class="glyphicon glyphicon-chevron-down" aria-hidden="true"></span>
+                </div>
             </div>
-          
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                      <!-- Indicators -->
-                      <ol class="carousel-indicators">
-                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                        <li data-target="#myCarousel" data-slide-to="1"></li>
-                        <li data-target="#myCarousel" data-slide-to="2"></li>
-                        <li data-target="#myCarousel" data-slide-to="3"></li>
-                      </ol>
+        </div>
+        <div class="row">
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                  </ol>
 
-                      <!-- Wrapper for slides -->
-                      <div class="carousel-inner" role="listbox" id="contents">
-                        <div class="item active">
-                            <div class="contentbox" >
-                                <h2>The Game</h2>
-                                <p>Quest for Zariba is a time-based strategy game, based in the developing country of Zariba. Play as a Health Control coordinator, traveling throughout the land to learn about the people and the problems. Then, use risk-based financing to plan and impliment services that will restore Zariba to glory!</p>
-                            </div>
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox" id="contents">
+                    <div class="item active">
+                        <div class="contentbox" >
+                            <img src="images/image1.jpeg" style="width: 300px; height: 200px;">
                         </div>
+                    </div>
 
-                        <div class="item" id="theworld">
-                            <div class="contentbox" >
-                                <h2>The World</h2>
-                                <p>Zariba is a timeless land, filled with unique people and struggles. The world may seem similar to some as a generalized developing country, stylized to identify with no one country, and yet all of them.</p>
-                            </div>
+                    <div class="item" id="">
+                        <div class="contentbox" >
+                            <img src="images/image2.jpg" style="width: 300px; height: 200px;">
                         </div>
+                    </div>
 
-                        <div class="item" id="theproblems">
-                            <div class="contentbox" >
-                                <h2>The Problems</h2>
-                                <p>Zariba has been dealing with many years of poverty, drought, political and social problems, among many others. To be short, the country is in a bad state. Speak to people throughout the country, traveling to different cities to find out what the most serious problems are. One of the main problems in Zariba is the transportation system, however, and you only have so many days to talk to as many citizens as possible.</p>
-                            </div>
+                    <div class="item" id="">
+                        <div class="contentbox" >
+                            <img src="images/image3.jpg" style="width: 300px; height: 200px;">
                         </div>
+                    </div>
 
-                        <div class="item" id="yourrole">
-                            <div class="contentbox" >
-                                <h2>Your Role</h2>
-                                <p>Since Zariba is filled with all of these serious issues, debilitating the people and the country's systems, they really need some help. As the Health Control coordinator assigned to Zariba, your job is to set up a plan to solve these problems. As you speak to people, different options will become unlocked in your journal. Put together these potential solutions however you see fit, attempting to make a plan that will solve the most problems and help Zariba rise from the ashes.</p>
-                            </div>
+                    <div class="item" id="">
+                        <div class="contentbox" >
+                            <img src="images/image4.jpeg" style="width: 300px; height: 200px;">
                         </div>
-                      </div>
+                    </div>
+                  </div>
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="jumbotron">
+                <h2>The Game</h2>
+                    <p>Quest for Zariba is a time-based strategy game, based in the developing country of Zariba. Play as a Health Control coordinator, traveling throughout the timeless world to learn about the people and the various problems revolving around health care, transportation systems, and political or social issues. Then, use risk-based financing to plan and impliment services that will restore Zariba to glory!</p>
+                <h2>Your Role</h2>
+                    <p>Since Zariba is filled with all of these serious issues, debilitating the people and the country's systems, they really need some help. As the Health Control coordinator assigned to Zariba, your job is to set up a plan to solve these problems. As you speak to people, different options will become unlocked in your journal. Put together these potential solutions however you see fit, attempting to make a plan that will solve the most problems and help Zariba rise from the ashes.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="jumbotron" id="play">
+                <h2>So you want to play?</h2>
 
-                      <!-- Left and right controls -->
-                      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-                        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                        <span class="sr-only">Previous</span>
-                      </a>
-                      <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-                        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-                        <span class="sr-only">Next</span>
-                      </a>
+                <p>We currently have both Mac OS and Windows compatable builds, download them and check the technical specifications below!</p>
+                <button type="button" class="btn btn-default">Mac OS</button>
+                <button type="button" class="btn btn-default">Windows</button>
+            </div>
+        </div>
+        
+        <div class="jumbotron" id="tech">
+            <h2>Technical Specifications</h2>
+            <div class="row">
+                <div class="col-lg-2">
+                </div>
+                <div class="col-lg-4">
+                    <h3>Windows</h3>
+                    <ul>
+                        <li>Screen Resolution 1366x768</li>
+                        <li>2.33GHz or faster x86-compatible processor, or Intel<span class="glyphicon glyphicon-registration-mark"></span> Atom&trade; 1.6GHz or faster processor for netbooks</li>
+                        <li>Microsoft<span class="glyphicon glyphicon-registration-mark"></span> Windows<span class="glyphicon glyphicon-registration-mark"></span> XP (32 bit), Windows Server 2008 (32 bit), Windows Vista<span class="glyphicon glyphicon-registration-mark"></span> (32 bit), Windows 7 (32 bit and 64 bit), Windows 8 (32 bit and 64 bit), or Windows Server 2012 (64 bit)</li>
+                        <li>Internet Explorer 8.0 or later, Mozilla Firefox 17 or later, Google Chrome, or Opera 11</li>
+                        <li>512MB of RAM (1GB of RAM recommended for netbooks); 128MB of graphics memory</li>
+                    </ul>
                 </div>
                 
-       
-            <div class="jumbotron " id="play">
-                <h2>So you want to play?</h2>
-                <p>We are currently hard at work, putting together artwork, code, and dialogue to build the world of Zariba, please be patient! Scroll down to see more projects we have worked on, and to find out more about when Quest of Zariba will be available.</p>
+                <div class="col-lg-4">
+                    <h3>Mac OS</h3>
+                    <ul>
+                        <li>Screen Resolution 1366x768</li>
+                        <li>Intel Core&trade; Duo 1.83GHz or faster processor</li>
+                        <li>Mac OS X v10.6, v10.7, v10.8, or v10.9</li>
+                        <li>Safari 5.0 or later, Mozilla Firefox 17, Google Chrome, or Opera 11</li>
+                        <li>512MB of RAM; 128MB of graphics memory</li>
+                    </ul>
+                </div>
             </div>
-            <div class="jumbotron " id="more">
-                <h2>More</h2>
-                <p>www.engagmentlab.com</p>
+            <div class="col-lg-2">
+                </div>
+            <div class="row" style="margin-top:5%;">
+                <p>Questions? <br><a href="www.engagementlab.com">www.engagementlab.com</a></p>
             </div>
+        </div>
     
     
     
@@ -122,8 +166,8 @@
                     <h2>Your Role</h2>
                     <p>Since Zariba is filled with all of these serious issues, debilitating the people and the country's systems, they really need some help. As the Health Control coordinator assigned to Zariba, your job is to set up a plan to solve these problems. As you speak to people, different options will become unlocked in your journal. Put together these potential solutions however you see fit, attempting to make a plan that will solve the most problems and help Zariba rise from the ashes.</p>
                 </div> -->
-    <script src="jquery-1.11.3.min.js"></script>
-     <script src="bootstrap.js"></script> 
+    <script src="js/jquery-1.11.3.min.js"></script>
+     <script src="js/bootstrap.js"></script> 
     
     </body>
 </html>
