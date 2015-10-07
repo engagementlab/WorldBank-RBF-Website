@@ -5,29 +5,25 @@
  */
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
-#play {
-  padding-top: 10%;
+#whatis {
+  padding-top: 2%;
 }
-#more {
-  padding-top: 5%;
+#download {
 }
 .down {
   margin-top: 18%;
 }
 
-.contentbox {
-  margin-top: 100px;
-  text-align: center;
 
-}
+
 #tech ul {
   list-style-type: none;
-  padding: 0;
+  padding: 2%;
   width: 90%;
   margin: auto;
 }
 #full {
-    background: url('background_map.png') no-repeat center center fixed;
+    background: "images\background_map.png" no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -308,10 +304,10 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-
   src: url('fonts/glyphicons-halflings-regular.eot');
   src: url('fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('fonts/glyphicons-halflings-regular.woff') format('woff'), url('fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
+
 .glyphicon {
   position: relative;
   top: 1px;
@@ -1128,7 +1124,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
@@ -1169,6 +1164,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  width: auto;
 }
 .img-rounded {
   border-radius: 6px;
@@ -1268,8 +1264,8 @@ h2,
 .h2,
 h3,
 .h3 {
-  margin-top: 0px;
-  margin-bottom: 10px;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 h1 small,
 .h1 small,
@@ -1353,7 +1349,7 @@ small,
 mark,
 .mark {
   padding: .2em;
-  background-color: #fcf8e3;
+  background-color: #FFFFFF;
 }
 .text-left {
   text-align: left;
@@ -4903,34 +4899,64 @@ a.badge:focus {
 }
 #main.jumbotron {
     margin-top: 40px;
+  	background-image: url(../images/background_map.png);
+	background-position:center;
+	background-size: cover;
+	background-color: #EFEFEF;
+	}
+
+@font-face {
+	font-family: 'robot';
+	src: url(robotoslab-regular.ttf);
 }
-.contentbox {
-    margin: 50px;
-    height: 80%;
+
+.carouselcontent {
+	margin: auto;
+    max-height: auto;
     text-align: center;
-  text-align:center;
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'robot';
+}
+
+.contentbox {
+    height: auto;
+	width: 70em;
+	margin:auto;
+    text-align: center;
+	align-content:center;
+    font-family: 'robot';
     color: #333; 
+  	background: rgb(135,191,219);
+}
+
+.contentbox l {
+    height: auto;
+	width: 10em;
+	margin:auto;
+    text-align: center;
+	align-content:center;
+    font-family: 'robot';
+    color: #333; 
+  	background: rgb(135,191,219);
 }
 .contentbox p {
     font-size: 1.5em;
-    padding: 10px;
+    padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 .contentbox h2 {
-    margin: 10px;
-    margin-bottom: 30px;
+   padding-top: 30px;
 }
 .jumbotron {
     text-align: center;
   padding: 20px;
-    max-height: 100%;
-    min-height: 90%;
-  background-color: rgba(199, 179, 149, .8);
+  background-color: rgba(0, 0, 0, 0);
 }
 .jumbotron h1,
 .jumbotron .h1 {
   color: inherit;
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'robot';
     font-size: 4em;
     color: #333;
     margin-bottom: 80px;
@@ -4938,27 +4964,26 @@ a.badge:focus {
 }
 .jumbotron h2 {
  text-align:center;
-    font-family: 'Chelsea Market', cursive;
-    margin-bottom: 30px;
+    font-family: 'robot';
+    margin-bottom: 20px;
     color: #333;
 }
 .jumbotron h3 {
  text-align: center;
-    font-family: 'Chelsea Market', cursive;
-    margin-bottom: 30px;
+    font-family: 'robot';
     padding-right: 50px;
     padding-left: 50px;
-    color: #333;
-    font-size: 1.5em;
+	padding-bottom:20px;
+    font-size: 2em;
+	background-color: rgba(216,227,236, .7);
 }
 .jumbotron p {
-  margin: 30px;
-    margin-right: 60px;
-    margin-left: 60px;
+  margin-right: 60px;
+  margin-left: 60px;
   font-size: 20px;
   font-weight: 200;
     text-align: center;
-    font-family: 'Chelsea Market', cursive;
+    font-family: 'robot';
 }
 .jumbotron > hr {
   border-top-color: #d5d5d5;
@@ -4966,8 +4991,13 @@ a.badge:focus {
 .container .jumbotron,
 .container-fluid .jumbotron {
   border-radius: 0px;
-    background-color: rgba(199, 179, 149, .8);
+    background-color: rgba(0, 0, 0, 0);
     align-content: center;
+}
+
+.clearbox
+{
+	background-color: rgba(200,212,219,0.53);
 }
 .jumbotron .container {
   max-width: 100%;
@@ -4975,13 +5005,13 @@ a.badge:focus {
 @media screen and (min-width: 768px) {
   .jumbotron {
     padding: 48px 0;
-      background-color: rgba(199, 179, 149, .8);
+      background-color: rgba(0, 0, 0, 0);
   }
   .container .jumbotron,
   .container-fluid .jumbotron {
     padding-right: 60px;
     padding-left: 60px;
-      background-color: rgba(199, 179, 149, .8);
+      background-color: rgba(0, 0, 0, 0);
       align-content: center;
   }
   .jumbotron h1,
@@ -4991,8 +5021,8 @@ a.badge:focus {
       margin-top: 10px;
   }
     .jumbotron h3 {
- text-align:center;
-    font-family: 'Chelsea Market', cursive;
+	text-align:center;
+    font-family: 'robot';
     margin-bottom: 30px;
     color: #333;
     font-size: 2em;
@@ -6172,7 +6202,7 @@ button.close {
 .carousel {
 
   position: relative;
-    background-color: rgba(199, 179, 149, .8);
+    background-color: rgba(300, 300, 300);
 }
 .carousel-inner {
   position: relative;
@@ -6685,49 +6715,61 @@ button.close {
 
 
 #custom-bootstrap-menu.navbar-default .navbar-brand {
-    color: rgba(79, 61, 29, 1);
+    color: rgba(1, 1, 1, 1);
     padding-left: 20px;
-    background-color: rgba(230, 207, 172, 1);
-    font-family: 'Chelsea Market', cursive;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'robotoslab-bold';
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 14px;
-    background-color: rgba(230, 207, 172, 1);
+    background-color: rgb(300, 300, 300);
     border-bottom-width: 0px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
     color: rgba(79, 61, 29, 1);
-    background-color: rgba(230, 207, 172, 1);
-    font-family: 'Chelsea Market', cursive;
+    background-color: rgba(0, 0, 0, 0);
+    font-family: 'robotoslab-bold';
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
     color: rgba(51, 51, 51, 1);
-    background-color: rgba(204, 179, 138, 1);
-    font-family: 'Chelsea Market', cursive;
+    background-color: rgba(0, 0, 0, .2);
+    font-family: 'robotoslab-bold';
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
 #custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
     color: rgba(85, 85, 85, 1);
-    background-color: rgba(204, 179, 138, 1);
-    font-family: 'Chelsea Market', cursive;
+    background-color: rgba(0, 0, 0, .2);
+    font-family: 'robotoslab-bold';
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #ccb38a;
+    border-color: rgba(0, 0, 0, .2);
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
-    background-color: #ccb38a;
-    font-family: 'Chelsea Market', cursive;
+    background-color: rgba(0, 0, 0, .2);
+    font-family: 'robotoslab-bold';
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
-    background-color: #ccb38a;
-    font-family: 'Chelsea Market', cursive;
+    background-color: rgba(0, 0, 0, .2);
+    font-family: 'robotoslab-bold';
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #e6cfac;
-    font-family: 'Chelsea Market', cursive;
+    background-color: rgba(0, 0, 0, .2);
+    font-family: 'robotoslab-bold';
 }
 
+.img-responsive {
+}
+#full {
+}
+#full {
+}
+#play {
+}
+.jumbrotron {
+}
+.contenbox {
+}
