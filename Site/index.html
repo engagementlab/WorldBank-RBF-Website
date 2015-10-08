@@ -1,11 +1,11 @@
 <html id="full">
 <head>
     <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="fonts/glyphicons-halflings-regular.woff">
     <link rel="stylesheet" href="fonts/glyphicons-halflings-regular.woff2">
 
-    <link href='http://fonts.googleapis.com/css?family=Cabin:400,700,400italic,700italic|Chelsea+Market' rel='stylesheet' type='text/css'>
-   
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,700' rel='stylesheet' type='text/css'>
     
     </head>
     
@@ -13,7 +13,7 @@
     
     <div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-fluid" id="full">
-            <div class="navbar-header"><a class="navbar-brand" href="#"><img src="images/unlocking_health.png" style="height: 33px; width: 120px; margin-top:-10px; margin-left: -10px; padding: 0px;"></a>
+            <div class="navbar-header"><a class="navbar-brand" href="#"><img src="images/unlocking_health.png" style="height: 40px; width: 120px; margin-top:-10px; margin-left: -10px; padding: 0px;"></a>
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
                 </button>
             </div>
@@ -40,10 +40,16 @@
 
     <div class="row">
         <div class="jumbotron" id="main">
-         	<div class="contenbox">
-                <p> <img src="images/unlocking_health2.png" class="img-responsive clearbox" style=""></p>
+            <p> <img src="images/unlocking_health2.png" class="img-responsive" style=""></p>
+            <div id="tagline" class="contentbox">
                 <h3>A strategy game about risk-based financing and health services in developing countries</h3>
             </div>
+        </div>
+    </div>
+    <div class="row" id="whatis">
+        <div class="contentbox" id="what">
+            <h2>What is Unlocking Health?</h2>
+            <p>Quest for Zariba is a time-based strategy game, based in the developing country of Zariba. Play as a Health Control coordinator, traveling throughout the timeless world to learn about the people and the various problems revolving around health care, transportation systems, and political or social issues. Then, use risk-based financing to plan and impliment services that will restore Zariba to glory!</p>
         </div>
     </div>
     <div class="row">
@@ -93,20 +99,14 @@
             </a>
         </div>
     </div>
-    <div class="row" id="whatis">
-        <div class="contentbox">
-            <h2>What is Unlocking Health?</h2>
-            <p>Quest for Zariba is a time-based strategy game, based in the developing country of Zariba. Play as a Health Control coordinator, traveling throughout the timeless world to learn about the people and the various problems revolving around health care, transportation systems, and political or social issues. Then, use risk-based financing to plan and impliment services that will restore Zariba to glory!</p>
-        </div>
-    </div>
     <div class="row"> 
         <div class="jumbotron" id="tech">
             <div class="container-fluid"><h2>Download</h2>
                 <div class="col-lg-2">
                 </div>
                 <div class="col-lg-4">
-                    <h3>Windows</h3>
-                    <button id="download" type="button" class="btn btn-default">Download Here</button>
+                    <div class="clearbox"><h3>Windows</h3></div>
+                    <div id="download"><button  type="button" class="btn btn-default">Download Here</button></div>
                     <ul>
                         <li>Screen Resolution 1366x768</li>
                         <li>2.33GHz or faster x86-compatible processor, or Intel<span class="glyphicon glyphicon-registration-mark"></span> Atom&trade; 1.6GHz or faster processor for netbooks</li>
@@ -116,8 +116,8 @@
                     </ul>
                 </div>
                 <div class="col-lg-4">
-                    <h3>Mac OS</h3>
-                    <button id="download" type="button" class="btn btn-default">Download Here</button>
+                    <div class="clearbox"><h3>Mac OS</h3></div>
+                    <div id="download"><button type="button" class="btn btn-default">Download Here</button></div>
                     <ul>
                         <li>Screen Resolution 1366x768</li>
                         <li>Intel Core&trade; Duo 1.83GHz or faster processor</li>

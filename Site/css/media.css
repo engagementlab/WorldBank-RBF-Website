@@ -1,0 +1,18 @@
+@media (max-width: 762px) {
+  .contentbox {
+    padding-left: 2%;
+    padding-right:2%;
+  }
+  .contentbox p{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  .contentbox h3{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  #download {
+  	margin-top: 5%
+  }
+
+}
