@@ -1124,7 +1124,6 @@ html {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 body {
-  font-size: 14px;
   line-height: 1.42857143;
   color: #333;
 }
@@ -1161,7 +1160,6 @@ img {
 .thumbnail a > img,
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
-  display: block;
   max-width: 100%;
   height: auto;
   width: auto;
@@ -1226,7 +1224,7 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.1;
   color: inherit;
 }
@@ -4903,12 +4901,14 @@ a.badge:focus {
 	background-position:center;
 	background-size: cover;
 	background-color: #EFEFEF;
+	align-items: center;
+
 	}
 
 @font-face {
 	font-family: 'robot';
-	src: url(robotoslab-regular.ttf);
-}
+	src: url('Ahmet Altun - HalisGR-SThin.otf');
+	}
 
 .carouselcontent {
 	margin: auto;
@@ -4919,10 +4919,10 @@ a.badge:focus {
 
 .contentbox {
     height: auto;
-	width: 70em;
-	margin:auto;
+	margin: auto;
     text-align: center;
-	align-content:center;
+	align-content: center;
+	align-items: center;
     font-family: 'robot';
     color: #333; 
   	background: rgb(135,191,219);
@@ -4944,12 +4944,13 @@ a.badge:focus {
 	padding-right: 80px;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	font-family: 'robot';
+
 }
 .contentbox h2 {
    padding-top: 30px;
 }
 .jumbotron {
-    text-align: center;
   padding: 20px;
   background-color: rgba(0, 0, 0, 0);
 }
@@ -4970,6 +4971,7 @@ a.badge:focus {
 }
 .jumbotron h3 {
  text-align: center;
+ align-items:center;
     font-family: 'robot';
     padding-right: 50px;
     padding-left: 50px;
