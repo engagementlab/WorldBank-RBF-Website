@@ -4945,10 +4945,11 @@ a.badge:focus {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	font-family: 'robot';
+	text-align:left
 
 }
 .contentbox h2 {
-   padding-top: 30px;
+   padding-top: 20px;
 }
 .jumbotron {
   padding: 20px;
@@ -6774,4 +6775,6 @@ button.close {
 .jumbrotron {
 }
 .contenbox {
+}
+.img {
 }
