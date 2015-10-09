@@ -335,13 +335,15 @@ th {
 }
 
 .glyphicon {
-  position: relative;
-  top: 1px;
-  display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  position: absolute;
+  top: 10px;
+  padding-top:3em;
   font-style: normal;
-  font-weight: normal;
-  line-height: 1;
+  font-weight: bold;
+  color: black;
+  font-size: 2em;
+  line-height: 5em;
+
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
