@@ -42,7 +42,7 @@
   padding: 2%;
   width: 90%;
   margin: auto;
-  font-size: 14px;
+  font-size: 20px;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
 }
@@ -1187,8 +1187,12 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   max-width: 100%;
+  min-width:90%;
   height: auto;
   width: auto;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5;
 }
 .img-rounded {
   border-radius: 6px;
@@ -4968,7 +4972,7 @@ a.badge:focus {
   	background: ;
 }*/
 .contentbox p {
-    font-size: 1.5em;
+    font-size: 2.5em;
     padding-left: 80px;
 	padding-right: 80px;
 	padding-top: 10px;
@@ -6755,7 +6759,7 @@ button.close {
     font-family: 'Roboto', sans-serif;
 }
 #custom-bootstrap-menu.navbar-default {
-    font-size: 14px;
+    font-size: 20px;
     background-color: rgb(300, 300, 300);
     border-bottom-width: 0px;
 }

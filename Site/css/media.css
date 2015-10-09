@@ -1,18 +1,42 @@
 @media (max-width: 762px) {
-  .contentbox {
-    padding-left: 2%;
-    padding-right:2%;
-  }
+  /*.contentbox {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5;
+  }*/
   .contentbox p{
     padding-left: 2%;
     padding-right: 2%;
+    font-size: 16px;
   }
   .contentbox h3{
     padding-left: 2%;
     padding-right: 2%;
+
   }
+
+  #tagline h2{
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size:16px;
+  }
+
   #download {
-  	margin-top: 5%;
+  	margin-top: 0%;
   }
+
+#tech ul {
+    font-size: 14px;
+  }
+
+#myCarousel {
+    max-width: 0%;
+    max-height: 0%;
+}
+
+#tagline.contentbox{
+  max-width:90%;
+}
+
 
 }
