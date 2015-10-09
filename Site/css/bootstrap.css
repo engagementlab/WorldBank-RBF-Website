@@ -26,6 +26,7 @@
   line-height:auto;
   margin-bottom: 0px;
   padding-bottom: 2%;
+  font-family: 'Roboto';
   padding-top: 2%;
 }
 #what {
@@ -36,6 +37,7 @@
 }
 #tech h3{
   line-height: 90px;
+    font-family: 'Roboto';
 }
 #tech ul {
   list-style-type: none;
@@ -296,6 +298,7 @@ th {
     orphans: 3;
     widows: 3;
        text-align:center;
+        font-family: 'Roboto';
       
   }
   h2,
@@ -1256,7 +1259,6 @@ h6,
 .h5,
 .h6 {
   font-family: inherit;
-  font-weight: 300;
   line-height: 1.1;
   color: inherit;
 }
@@ -1340,7 +1342,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 36px;
+  font-size: 33px;
 }
 h3,
 .h3 {
@@ -4985,6 +4987,7 @@ a.badge:focus {
 }
 .contentbox h2 {
    padding-top: 20px;
+   font-size: 6em;
 }
 .jumbotron {
   padding: 20px;
