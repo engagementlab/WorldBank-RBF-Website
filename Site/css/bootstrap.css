@@ -21,6 +21,18 @@
 .down {
   margin-top: 18%;
 }
+
+#install {
+  margin-bottom: 5%;
+  list-style-type: none;
+  padding: 2%;
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+
+}
 #tagline h2{
   padding: auto;
   line-height:auto;
@@ -43,10 +55,26 @@
   list-style-type: none;
   padding: 2%;
   width: 90%;
+  margin: auto; 
+  font-size: 20px;
+  font-weight: 300;
+  font-family: 'Roboto', sans-serif;
+}
+
+#install ul {
+  padding: 2%;
+  width: 90%;
   margin: auto;
   font-size: 20px;
   font-weight: 300;
   font-family: 'Roboto', sans-serif;
+}
+
+#install li span {
+  text-align: left;
+  margin-bottom: 1.5em;
+  font-size: 1em;
+
 }
 #full {
     background: "images/background_map.jpg" no-repeat center center fixed;
