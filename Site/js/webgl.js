@@ -37,7 +37,7 @@ embedWebGL = function() {
 	frame.onload = function() {
     fullscreenWebGL();		
 	}
-	frame.src="http://localhost:3000/uh/";
+	frame.src="http://api.elab.emerson.edu/uh/";
 };
 
 clearWebGL = function() {
