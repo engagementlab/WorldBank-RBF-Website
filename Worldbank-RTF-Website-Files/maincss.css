@@ -1,0 +1,42 @@
+
+/*/////////////////////////
+NAVBAR
+//////////////////////////*/
+.navbar {
+	margin-bottom: 0;
+}
+/*/////////////////////////
+JUMBOTRON
+//////////////////////////*/
+.jumbotron{
+	margin-bottom: 0;
+}
+/*/////////////////////////
+BLOCKS
+//////////////////////////*/
+#mac{
+	background-color:#235E80;
+}
+#windows{
+	background-color:#215570;
+}
+#online{
+	background-color:#316B8D;
+}
+#mobile{
+	background-color:#1E475B;
+}
+/*/////////////////////////
+FOOTER
+//////////////////////////*/
+#footer{
+	background-color: #4787AD;
+}
+
+
+
+
+h1, p {
+	text-align: center;
+	color: white; 
+}
