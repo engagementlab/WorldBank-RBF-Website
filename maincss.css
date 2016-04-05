@@ -12,6 +12,34 @@ JUMBOTRON
     margin-bottom: 0;
 }
 
+#backgroundImg.jumbotron {
+    min-height: 200px;
+    z-index: 0;
+    background: url("images/background_map.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.banner {
+    background: rgba(255, 255, 255, .8);
+    z-index: 1;
+    height: 180px;
+    width: 40%;
+    left: 30%;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    position: relative;
+    color: black;
+}
+.bannerImg {
+    
+    margin: 0 auto;
+    position: relative;
+}
+.bannerImg img {
+    margin: 0 auto;
+}
+
 /*/////////////////////////
 BLOCKS
 //////////////////////////*/
