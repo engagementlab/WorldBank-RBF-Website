@@ -1,4 +1,13 @@
 /*/////////////////////////
+GLOBALS
+//////////////////////////*/
+a, a:hover, a:active, a:visited {
+
+    color: cyan;
+
+}
+
+/*/////////////////////////
 NAVBAR
 //////////////////////////*/
 .navbar {
@@ -185,7 +194,12 @@ h1 {
 }
 
 #p3 {
-    padding-bottom: 150px;
+    padding-bottom: 79px;
+}
+#tips-slideshow {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
 }
 
 /*/////////////////////////

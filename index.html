@@ -8,13 +8,18 @@
     <link href="maincss.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Quicksand:400,300,700'
     rel='stylesheet' type='text/css'>
+
+    <!-- Include the basic styles -->
+    <link type="text/css" rel="Stylesheet" href="css/bjqs.css" />
     
-        <!-- Include the jQuery library (local or CDN) -->
+    <!-- Include the jQuery library (local or CDN) -->
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="http://code.jquery.com/jquery.js"></script> 
+    
+    <script src="js/bootstrap.min.js"></script>
+
     <!-- Include the plugin *after* the jQuery library -->
     <script src="js/bjqs.min.js"></script>
-    <script src="http://code.jquery.com/jquery.js"></script> 
-    <script src="js/bootstrap.min.js"></script>
     
 </head>
 <body class="template">
@@ -28,23 +33,19 @@
                 "collapse" type="button"><span class="sr-only">Toggle
                 navigation</span> <span class="icon-bar"></span> <span class=
                 "icon-bar"></span> <span class="icon-bar"></span></button>
-                <a class="navbar-brand" href="#"><img src="images/unlocking_health.png" style="width:100px; height:25px;"></div></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id=
             "bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#">What is Unlocking Health?</a>
+                        <a href="#play">Play</a>
                     </li>
                     <li>
-                        <a href="#">Play Now</a>
+                        <a href="#about">About</a>
                     </li>
                     <li>
-                        <a href="#">Download</a>
-                    </li>
-                    <li>
-                        <a href="#">About</a>
+                        <a href="#tips">Tips for Playing</a>
                     </li>
                 </ul>
             </div><!-- /.navbar-collapse -->
@@ -61,6 +62,8 @@
         </div>
 
     </div>
+
+    <a id="play"></a>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-6 download" id="mac">
@@ -69,8 +72,9 @@
                 <h3>download for mac</h3>
                 <p class="maintext">Approx. 26 minutes to download file over
                 standard DSL connection (1.5mbps)</p><br>
+                <a href="https://elabhome.blob.core.windows.net/downloads/UnlockingHealth_Mac.zip">
                 <button class="btn btn-default center-block" type=
-                "button">download</button><br>
+                "button">download</button></a><br>
                 <p class="greytext">Screen Resolution 800x600<br>
                 CPU SSE2 instruction set support<br>
                 Graphics card DX9 (shader model 2.0) capabilities<br>
@@ -83,12 +87,13 @@
                 <h3>download for windows</h3>
                 <p class="maintext">Approx. 26 minutes to download file over
                 standard DSL connection (1.5mbps)</p><br>
+                <a href="https://elabhome.blob.core.windows.net/downloads/UnlockingHealth_PC.zip">
                 <button class="btn btn-default center-block" type=
-                "button">download</button><br>
+                "button">download</button></a>
+                <br>
                 <p class="greytext">Screen Resolution 800x600<br>
                 CPU SSE2 instruction set support<br>
                 Graphics card DX9 (shader model 2.0) capabilities<br>
-                PC REQUIREMENTS HERE!!!!!!<br>
                 2GB of RAM</p><br>
             </div>
         </div>
@@ -100,60 +105,61 @@
                 <h3>play online</h3><br>
                 <button class="btn btn-default center-block" type="button">play
                 online</button><br>
-                <p class="greytext">Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Aenean tristique, ligula a elementum volutpat,
-                ante diam pretium nisi, at tristique elit mauris vel
-                elit.</p><br>
+                <p class="greytext">A fast connection (at least 10mbps) is recommended. Please be patient as the game may take 1-5 minutes to download inside browser. You can test your connection speed <a href="http://testmy.net/SmarTest/down">here</a>.</p><br>
             </div>
             <div class="col-sm-12 col-md-6 col-lg-6 download" id="mobile">
                 <br>
                 <div class="iconhere" id="mobileicon"></div><br>
                 <h3>download on mobile</h3><br>
                 <p>Coming Soon in Fall 2016!</p><br>
-                <button class="btn btn-default center-block" type=
-                "button">download app</button><br>
-                <p class="greytext">Screen Resolution 800x600<br>
-                CPU SSE2 instruction set support</p><br>
+                <!-- <button class="btn btn-default center-block" type=
+                "button">download app</button><br><br> -->
             </div>
         </div>
+
+        <a id="about"></a>
         <div class="row">
             <div class="col-sm-12 col-md-12 col-lg-12" id="footer">
+                <div>
                 <h1>Welcome to Zariba!</h1>
-                <p>You are an international consultant charged with creating a
-                program proposal fo the people of Zariba that will improve
-                health care and raise key indicators specified by the Ministry
-                of Health.</p>
-                <p>Find your way around the country and talk to local people to
-                get a nuanced picture of the situation from a wide array of
-                perspectives. Set health priorities with government ministry
-                officials, then help implement, monitor, and adapt the plan in
-                context as operational obstacles inevitably arise.</p>
-                <p id="p3">Strive to meet target health indicator goals over
-                the course of three years in the game and unlock health for the
-                people of Zariba!</p>
+                    <p>You are an international consultant charged with creating a
+                    program proposal fo the people of Zariba that will improve
+                    health care and raise key indicators specified by the Ministry
+                    of Health.</p>
+                    <p>Find your way around the country and talk to local people to
+                    get a nuanced picture of the situation from a wide array of
+                    perspectives. Set health priorities with government ministry
+                    officials, then help implement, monitor, and adapt the plan in
+                    context as operational obstacles inevitably arise.</p>
+                    <p id="p3">Strive to meet target health indicator goals over
+                    the course of three years in the game and unlock health for the
+                    people of Zariba!</p>
+                </div>
+    
+                <a id="tips"></a>
+                <div id="tips-slideshow">
+                  <ul class="bjqs">
+                    <li><img src="images/slides/0.jpg"></li>
+                    <li><img src="images/slides/1.jpg"></li>
+                    <li><img src="images/slides/2.jpg"></li>
+                    <li><img src="images/slides/3.jpg"></li>
+                      <li><img src="images/slides/4.jpg"></li>
+                      <li><img src="images/slides/5.jpg"></li>
+                      <li><img src="images/slides/6.jpg"></li>
+                      <li><img src="images/slides/7.jpg"></li>
+                      <li><img src="images/slides/8.jpg"></li>
+                      <li><img src="images/slides/9.jpg"></li>
+                      <li><img src="images/slides/10.jpg"></li>
+                      <li><img src="images/slides/11.jpg"></li>
+                       <li><img src="images/slides/12.jpg"></li>
+                       <li><img src="images/slides/13.jpg"></li>
+                       <li><img src="images/slides/14.jpg"></li>
+                       <li><img src="images/slides/15.jpg"></li>
+                  </ul>
+                </div>
+
             </div>
         </div>
-    </div>
-    
-    
-    <div id="tips-slideshow">
-      <ul class="bjqs">
-        <li><img src="images/slides/1.jpg"></li>
-        <li><img src="images/slides/2.jpg"></li>
-        <li><img src="images/slides/3.jpg"></li>
-          <li><img src="images/slides/4.jpg"></li>
-          <li><img src="images/slides/5.jpg"></li>
-          <li><img src="images/slides/6.jpg"></li>
-          <li><img src="images/slides/7.jpg"></li>
-          <li><img src="images/slides/8.jpg"></li>
-          <li><img src="images/slides/9.jpg"></li>
-          <li><img src="images/slides/10.jpg"></li>
-          <li><img src="images/slides/11.jpg"></li>
-           <li><img src="images/slides/12.jpg"></li>
-           <li><img src="images/slides/13.jpg"></li>
-           <li><img src="images/slides/14.jpg"></li>
-           <li><img src="images/slides/15.jpg"></li>
-      </ul>
     </div>
     
     <script type="text/javascript">
@@ -163,7 +169,7 @@
           height: 660,
           animtype : 'fade', // accepts 'fade' or 'slide'
           animduration : 450, // how fast the animation are
-          animspeed : 4000, // the delay between each slide
+          animspeed : 7500, // the delay between each slide
           automatic : true, // automatic
           showcontrols : false,
           showmarkers : false,
