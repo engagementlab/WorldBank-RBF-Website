@@ -13,10 +13,13 @@
     <link type="text/css" rel="Stylesheet" href="css/bjqs.css" />
     
     <!-- Include the jQuery library (local or CDN) -->
-    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script src="http://code.jquery.com/jquery.js"></script> 
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="https://code.jquery.com/jquery.js"></script> 
+
+    <script src="https://cdn.jsdelivr.net/jquery.scrollto/2.1.2/jquery.scrollTo.min.js"></script>
     
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/webgl.js"></script>
 
     <!-- Include the plugin *after* the jQuery library -->
     <script src="js/bjqs.min.js"></script>
@@ -103,10 +106,21 @@
                 <div class="iconhere" id="onlineicon"></div><br>
                 <p class="greytext">have a high speed internet connection?</p>
                 <h3>play online</h3><br>
-                <button class="btn btn-default center-block" type="button">play
-                online</button><br>
-                <p class="greytext">A fast connection (at least 10mbps) is recommended. Please be patient as the game may take 1-5 minutes to download inside browser. You can test your connection speed <a href="http://testmy.net/SmarTest/down">here</a>.</p><br>
+
+                <div id="browsers">
+                    <p>Your browser is not compatible with this version, but you can install Chrome or Firefox:<br />
+                     <a href="https://www.google.com/chrome/browser/desktop/" target="_blank" class="hvr-grow"><img src="images/chrome.png" /></a>
+                     <a href="https://www.mozilla.org/firefox/new/" target="_blank" class="hvr-grow"><img src="images/firefox.png" /></a></p>
+                    <p>Or download the game for PC or Mac!</p>
+                </div>
+
+                <div id="playnow">
+                    <button class="btn btn-default center-block" type="button">play
+                    online</button><br>
+                    <p class="greytext">A fast connection (at least 10mbps) is recommended. Please be patient as the game may take 1-5 minutes to download inside browser. You can test your connection speed <a href="http://testmy.net/SmarTest/down">here</a>.</p><br>
+                </div>
             </div>
+
             <div class="col-sm-12 col-md-6 col-lg-6 download" id="mobile">
                 <br>
                 <div class="iconhere" id="mobileicon"></div><br>
@@ -115,6 +129,20 @@
                 <!-- <button class="btn btn-default center-block" type=
                 "button">download app</button><br><br> -->
             </div>
+        </div>
+
+        <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12" id="webgl" style="display: none">
+             <iframe id="game_embed"
+             width="100%" height="660" frameBorder="0"
+             sandbox="allow-scripts allow-same-origin allow-modals" allowfullscreen="true">
+              <p>
+                <a href="https://developer.mozilla.org/en-US/docs/Glossary">
+                  Fallback link for browsers that, unlikely, don't support frames
+                </a>
+              </p>
+            </iframe>
+        </div>
         </div>
 
         <a id="about"></a>
@@ -139,22 +167,22 @@
                 <a id="tips"></a>
                 <div id="tips-slideshow">
                   <ul class="bjqs">
-                    <li><img src="images/slides/0.jpg"></li>
-                    <li><img src="images/slides/1.jpg"></li>
-                    <li><img src="images/slides/2.jpg"></li>
-                    <li><img src="images/slides/3.jpg"></li>
-                      <li><img src="images/slides/4.jpg"></li>
-                      <li><img src="images/slides/5.jpg"></li>
-                      <li><img src="images/slides/6.jpg"></li>
-                      <li><img src="images/slides/7.jpg"></li>
-                      <li><img src="images/slides/8.jpg"></li>
-                      <li><img src="images/slides/9.jpg"></li>
-                      <li><img src="images/slides/10.jpg"></li>
-                      <li><img src="images/slides/11.jpg"></li>
-                       <li><img src="images/slides/12.jpg"></li>
-                       <li><img src="images/slides/13.jpg"></li>
-                       <li><img src="images/slides/14.jpg"></li>
-                       <li><img src="images/slides/15.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/0.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/1.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/2.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/3.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/4.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/5.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/6.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/7.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/8.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/9.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/10.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/11.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/12.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/13.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/14.jpg"></li>
+        <li><img src="https://res.cloudinary.com/engagement-lab-home/raw/upload/v1460063581/unlockinghealth/15.jpg"></li>
                   </ul>
                 </div>
 
@@ -164,6 +192,15 @@
     
     <script type="text/javascript">
       $(document).ready(function($) {
+        $('#playnow button').on('click', function () {
+            $('#webgl').slideDown();
+            $.scrollTo($('#webgl'), {
+              axis: 'y',
+              duration: 800
+            });
+            embedWebGL();
+        });
+
         $('#tips-slideshow').bjqs({
           width: 980,
           height: 660,

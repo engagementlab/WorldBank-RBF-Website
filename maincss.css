@@ -182,10 +182,22 @@ background-image: url(images/windows.png);background-size: contain;
 }
 #mobileicon {background-image: url(images/Mobile_Icon.png);background-size: contain;}
 
+#browsers {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#tips-slideshow {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
 /*/////////////////////////
 FOOTER
 //////////////////////////*/
-#footer {
+#footer,#webgl {
     background-color: #4787AD;
 }
 
@@ -195,11 +207,6 @@ h1 {
 
 #p3 {
     padding-bottom: 79px;
-}
-#tips-slideshow {
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 50px;
 }
 
 /*/////////////////////////
