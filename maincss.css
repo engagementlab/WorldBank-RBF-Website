@@ -15,33 +15,104 @@ JUMBOTRON
 #backgroundImg.jumbotron {
     min-height: 200px;
     z-index: 0;
-    background: url("images/background_map.png") no-repeat;
+    background: url(images/background_map.png) no-repeat;
     background-size: cover;
     position: relative;
 }
 
+#UHbanner {
+    background-image: url(images/unlocking_health.png);
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+}
+
 .banner {
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255,255,255,.8);
     z-index: 1;
-    height: 180px;
-    width: 40%;
-    left: 30%;
+    height: 10%;
     margin-right: 0 auto;
     margin-left: 0 auto;
     position: relative;
-    color: black;
+    color: #000;
 }
+
 .bannerImg {
-    
     margin: 0 auto;
     position: relative;
 }
+
 .bannerImg p {
-    color: black;
+    color: #000;
 }
+
 .bannerImg img {
     margin: 0 auto;
     position: relative;
+}
+
+@media screen and (max-width: 480px) {
+    #UHbanner {
+        width: 80%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        width: 80%;
+        left: 10%;
+    }
+
+    #UHbanner {
+        width: 80%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #bannertext {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .banner {
+        width: 40%;
+        left: 30%;
+    }
+
+    #UHbanner {
+        width: 80%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #bannertext {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 934px) {
+    .banner {
+        width: 40%;
+        left: 30%;
+    }
+
+    #UHbanner {
+        width: 310px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+
+    #bannertext {
+        font-size: 15px;
+        padding-top: 10px;
+    }
 }
 
 /*/////////////////////////
@@ -51,7 +122,7 @@ BLOCKS
     height: 100px;
     width: 100px;
     margin: 0 auto;
-    background-color: #fff;
+    
 }
 
 #mac,#windows,#online,#mobile {
@@ -89,6 +160,18 @@ BLOCKS
     color: #3B7FA3;
     border: 2px #3B7FA3 solid;
 }
+
+#macicon{
+background-image: url(images/appleicon.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;}
+#windicon{
+background-image: url(images/windows.png);background-size: contain;
+}
+#onlineicon { background-image:url(images/computericon.png);background-size: contain;
+}
+#mobileicon {background-image: url(images/Mobile_Icon.png);background-size: contain;}
 
 /*/////////////////////////
 FOOTER
