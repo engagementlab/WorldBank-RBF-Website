@@ -36,8 +36,12 @@ JUMBOTRON
     margin: 0 auto;
     position: relative;
 }
+.bannerImg p {
+    color: black;
+}
 .bannerImg img {
     margin: 0 auto;
+    position: relative;
 }
 
 /*/////////////////////////
