@@ -191,7 +191,7 @@ background-image: url(../images/windows.png);background-size: contain;
 #tips-slideshow {
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 50px;
+    margin-bottom: 50px;margin-top: 40px;
 }
 
 /*/////////////////////////
@@ -206,7 +206,6 @@ h1 {
 }
 
 #p3 {
-    padding-bottom: 79px;
 }
 
 /*/////////////////////////
