@@ -37,7 +37,7 @@ embedWebGL = function() {
 	frame.onload = function() {
     fullscreenWebGL();		
 	}
-	frame.src="https://commondatastorage.googleapis.com/itchio/html/182818/index.html";
+	frame.src="https://commondatastorage.googleapis.com/itchio/html/183262/index.html";
 };
 
 clearWebGL = function() {

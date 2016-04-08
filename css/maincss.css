@@ -24,13 +24,13 @@ JUMBOTRON
 #backgroundImg.jumbotron {
     min-height: 200px;
     z-index: 0;
-    background: url(images/background_map.png) no-repeat;
+    background: url(../images/background_map.png) no-repeat;
     background-size: cover;
     position: relative;
 }
 
 #UHbanner {
-    background-image: url(images/unlocking_health.png);
+    background-image: url(../images/unlocking_health.png);
     background-size: cover;
     width: 300px;
     height: 100px;
@@ -171,16 +171,16 @@ BLOCKS
 }
 
 #macicon{
-background-image: url(images/appleicon.png);
+background-image: url(../images/appleicon.png);
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;}
 #windicon{
-background-image: url(images/windows.png);background-size: contain;
+background-image: url(../images/windows.png);background-size: contain;
 }
-#onlineicon { background-image:url(images/computericon.png);background-size: contain;
+#onlineicon { background-image:url(../images/computericon.png);background-size: contain;
 }
-#mobileicon {background-image: url(images/Mobile_Icon.png);background-size: contain;}
+#mobileicon {background-image: url(../images/Mobile_Icon.png);background-size: contain;}
 
 #browsers {
     margin-left: auto;
