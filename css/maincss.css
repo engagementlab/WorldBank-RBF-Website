@@ -1,0 +1,222 @@
+/*/////////////////////////
+GLOBALS
+//////////////////////////*/
+a, a:hover, a:active, a:visited {
+
+    color: cyan;
+
+}
+
+/*/////////////////////////
+NAVBAR
+//////////////////////////*/
+.navbar {
+    margin-bottom: 0;
+}
+
+/*/////////////////////////
+JUMBOTRON
+//////////////////////////*/
+.jumbotron {
+    margin-bottom: 0;
+}
+
+#backgroundImg.jumbotron {
+    min-height: 200px;
+    z-index: 0;
+    background: url(../images/background_map.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+#UHbanner {
+    background-image: url(../images/unlocking_health.png);
+    background-size: cover;
+    width: 300px;
+    height: 100px;
+    margin: auto;
+}
+
+.banner {
+    background: rgba(255,255,255,.8);
+    z-index: 1;
+    height: 10%;
+    margin-right: 0 auto;
+    margin-left: 0 auto;
+    position: relative;
+    color: #000;
+}
+
+.bannerImg {
+    margin: 0 auto;
+    position: relative;
+}
+
+.bannerImg p {
+    color: #000;
+}
+
+.bannerImg img {
+    margin: 0 auto;
+    position: relative;
+}
+
+@media screen and (max-width: 480px) {
+    #UHbanner {
+        width: 80%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner {
+        width: 80%;
+        left: 10%;
+    }
+
+    #UHbanner {
+        width: 80%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #bannertext {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .banner {
+        width: 40%;
+        left: 30%;
+    }
+
+    #UHbanner {
+        width: 80%;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    #bannertext {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 934px) {
+    .banner {
+        width: 40%;
+        left: 30%;
+    }
+
+    #UHbanner {
+        width: 310px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: auto;
+    }
+
+    #bannertext {
+        font-size: 15px;
+        padding-top: 10px;
+    }
+}
+
+/*/////////////////////////
+BLOCKS
+//////////////////////////*/
+.iconhere {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    
+}
+
+#mac,#windows,#online,#mobile {
+    height: 430px;
+    margin: 0;
+}
+
+#mac {
+    background-color: #235E80;
+}
+
+#windows {
+    background-color: #215570;
+}
+
+#online {
+    background-color: #316B8D;
+}
+
+#mobile {
+    background-color: #1E475B;
+}
+
+.btn {
+    background-color: #3B7FA3;
+    color: #fff;
+    width: 120px;
+    border: 2px #fff solid;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #3B7FA3;
+    border: 2px #3B7FA3 solid;
+}
+
+#macicon{
+background-image: url(../images/appleicon.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;}
+#windicon{
+background-image: url(../images/windows.png);background-size: contain;
+}
+#onlineicon { background-image:url(../images/computericon.png);background-size: contain;
+}
+#mobileicon {background-image: url(../images/Mobile_Icon.png);background-size: contain;}
+
+#browsers {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#tips-slideshow {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+/*/////////////////////////
+FOOTER
+//////////////////////////*/
+#footer,#webgl {
+    background-color: #4787AD;
+}
+
+h1 {
+    padding-top: 30px;
+}
+
+#p3 {
+    padding-bottom: 79px;
+}
+
+/*/////////////////////////
+GENERAL
+//////////////////////////*/
+h1,h3,p {
+    text-align: center;
+    color: #fff;
+    font-family: 'Quicksand',sans-serif;
+    margin: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+}
