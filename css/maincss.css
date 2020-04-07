@@ -197,7 +197,7 @@ background-image: url(../images/windows.png);background-size: contain;
 /*/////////////////////////
 FOOTER
 //////////////////////////*/
-#footer,#webgl {
+.footer,#webgl,#logos {
     background-color: #4787AD;
 }
 
